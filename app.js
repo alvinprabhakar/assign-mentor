@@ -17,7 +17,7 @@ const port = 3001;
 
         app.use((req,res,next) => {
             console.log("Middleware Api called!!!!!!");
-            //res.send("Mentor Student Api")
+            res.send("Mentor Student Api")
             next();
         })
 
